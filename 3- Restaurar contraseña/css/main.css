@@ -1,0 +1,127 @@
+body {
+    background: url(../img/fondoo.jpeg) no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.log {
+    position: absolute;
+    width: 566px;
+    height: 400px;
+    left: 515px;
+    top: 120px;
+  
+    background: rgba(196, 196, 196, 0.61);
+    border-radius: 50px;
+  }
+
+.av {
+    position: absolute;
+    width: 300px;
+    height: 240px;
+    left: 135px;
+    top: 25px;
+  
+    background: url(image.png);
+    border-radius: 10px;
+  }
+  
+  /* Usuario */
+  div .user label {
+    position: absolute;
+    width: 90px;
+    height: 32px;
+    left: 60px;
+    top: 162px;
+  
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 32px;
+  
+    color: #ffffff;
+  }
+  
+  div .user input {
+    position: absolute;
+    width: 430px;
+    height: 56px;
+    left: 60px;
+    top: 200px;
+  
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+  
+    background: #c4c4c4;
+    border-radius: 5px;
+  }
+  
+  /* Ingresar */
+  
+  .login {
+    background: #203451;
+    border-radius: 50px;
+  
+    color: #ffffff;
+  
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    left: 30px;
+    top: 350px;
+  
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  
+  /* enviar correo */
+  
+  .send {
+    position: absolute;
+    width: 190px;
+    height: 50px;
+    right: 195px;
+    top: 285px;
+  
+    background: #203451;
+    border-radius: 50px;
+  
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+  
+    color: #ffffff;
+  }
+
+/* Logo 1 */
+.img1 {
+    position: absolute;
+    width: 206px;
+    height: 85px;
+    left: 24px;
+    top: 645px;
+  
+    border-radius: 10px;
+  }
+  /* Logo 2 */
+  
+  .img2 {
+    position: absolute;
+    width: 118px;
+    height: 125px;
+    left: 240px;
+    top: 620px;
+  
+    border-radius: 10px;
+  }

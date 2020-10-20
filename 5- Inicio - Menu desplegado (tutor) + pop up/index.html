@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Menu desplegable con asignaciones(tutor) </title>
+</head>
+<body>
+    <header>
+        <div> Barra 1 </div>
+        <div> Barra 2 </div>
+        <div> Barra 3 </div>
+        <h1> Tutor </h1>
+        <img src="./Avatares/Av2.png" alt="Avatar">
+    </header>
+    <main>
+        <aside>
+            <p> • Configuracion </p>
+            <p> • Ir a salas </p>
+            <p> • Ver historicos </p>
+            <p> • Cerrar sesion </p>
+        </aside>
+        <h2> Asignaciones </h2>
+        <div>
+            <p> Haz sido asignado por 
+                <input id="tutor" name="tutor" type="text" placeholder="Nombre del tutor" required>
+                para supervisar la mesa 
+                <input id="mesa" name="mesa" type="text" placeholder="Numero de mesa" required> 
+                de la sala 
+                <input id="sala" name="sala" type="text" placeholder="Nombre de la sala" required> la cual inicia a las: 
+                <input id="tiempo" name="tiempo" type="time" placeholder="00:00:00" required> 
+                y termina a a las: 
+                <input id="tiempo2" name="tiempo2" type="time" placeholder="00:00:00" required>
+            </p>
+            <p> Link a compartir  <input id="link" name="link" type="text" placeholder="ABC12" required> 
+            </p>
+            <button> IR A LA MESA </button>
+        </div>
+    </main>
+    <footer>
+        <img src="./Img/fund.png" alt="Logo">
+        <img src="./Img/uca.png" alt="Logo UCA">
+    </footer>
+
+        <!-- Pop up -->
+
+    <div>
+        <p> ¿Esta seguro que desea cerrar sesion? </p>
+        <button> Cerrar sesion </button>
+        <button> X </button>
+    </div>
+</body>
+</html>

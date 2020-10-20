@@ -1,0 +1,490 @@
+/* background */
+
+body {
+    background-image: url(../img/fondoo.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  /* Barra superior */
+  
+  .barra {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+  
+    background: #203451;
+  }
+  
+  .barra .button {
+    background-color: #203451;
+    border: #203451;
+    width: 57px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 2em;
+  }
+  
+  .fa-bars {
+    background-color: #203451;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+  }
+  
+  .admin {
+    position: absolute;
+    width: 168px;
+    height: 32px;
+    left: 1220px;
+    top: 4px;
+  
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+  
+    color: #ffffff;
+  }
+  
+  .avatar {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    right: 15px;
+    top: 4px;
+  
+    border-radius: 100px;
+  }
+  
+  /* Main rectangle */
+  
+  .rooms-main {
+    position: absolute;
+    width: 1025px;
+    height: 600px;
+    left: 320px;
+    top: 90px;
+  
+    background: rgba(196, 196, 196, 0.8);
+    border-radius: 35px;
+  }
+  
+  /* Mesas - Sala “Hola Mundo” */
+  
+  .mesas {
+    position: absolute;
+    width: 610px;
+    height: 63px;
+    left: 61px;
+    top: 0px;
+  
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 63px;
+  
+    color: #ffffff;
+  }
+  
+  .bar {
+    position: absolute;
+    width: 979px;
+    height: 5px;
+    left: 33px;
+    top: 80px;
+  
+    background: #2b2d3e;
+  }
+  
+  .rooms-main .startR {
+    position: absolute;
+    width: 360px;
+    height: 50px;
+    left: 625px;
+    top: 35px;
+  
+    background: #203451;
+    border-radius: 50px;
+  }
+  
+  /* Dar inicio a toda la sala */
+  .startR {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 26px;
+    text-align: center;
+  
+    color: #ffffff;
+  }
+  
+  .rooms .r1 {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    left: 41px;
+    top: 131px;
+  
+    background: rgba(32, 52, 81, 0.53);
+    border-radius: 20px;
+  }
+  
+  .r1 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+  
+    color: #ffffff;
+  }
+  
+  .rooms .gestion1 {
+    position: absolute;
+    width: 134px;
+    height: 38px;
+    left: 70px;
+    top: 240px;
+  
+    background: rgba(196, 196, 196, 0.71);
+    border-radius: 50px;
+  }
+  /* Gestión de mesa */
+  .gestion1 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 18px;
+    text-align: center;
+  
+    color: #ffffff;
+  }
+
+  .rooms .live1 {
+    position: absolute;
+    width: 134px;
+    height: 34px;
+    left: 70px;
+    top: 280px;
+  
+    background: rgb(255, 255, 255);
+    border: 1.5px solid #FF0000;
+    border-radius: 50px;
+  }
+  
+  .live1 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 18px;
+    text-align: center;
+  
+    color: red;
+  }
+
+  .rooms .live2 {
+    position: absolute;
+    width: 134px;
+    height: 38px;
+    left: 320px;
+    top: 280px;
+  
+    background: rgb(255, 255, 255);
+    border: 1.5px solid #FF0000;
+    border-radius: 50px;
+  }
+
+  .live2 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 18px;
+    text-align: center;
+  
+    color: red;
+  }
+
+  .r2 {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    left: 41px;
+    top: 330px;
+  
+    background: #938585;
+    border-radius: 20px;
+  }
+  
+  .rooms .r3 {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    left: 291px;
+    top: 131px;
+  
+    background: rgba(32, 52, 81, 0.53);
+    border-radius: 20px;
+  }
+  
+  .r3 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+  
+    color: #ffffff;
+  }
+  
+  .rooms .gestion3 {
+    position: absolute;
+    width: 134px;
+    height: 38px;
+    left: 320px;
+    top: 240px;
+  
+    background: rgba(196, 196, 196, 0.71);
+    border-radius: 50px;
+  }
+  
+  /* Gestión de mesa */
+  .gestion3 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 18px;
+    text-align: center;
+  
+    color: #ffffff;
+  }
+  
+  .r4 {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    left: 291px;
+    top: 330px;
+  
+    background: #938585;
+    border-radius: 20px;
+  }
+  
+  .r5 {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    left: 541px;
+    top: 131px;
+  
+    background: rgba(32, 52, 81, 0.53);
+    border-radius: 20px;
+  }
+  
+  .r6 {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    left: 541px;
+    top: 330px;
+  
+    background: #938585;
+    border-radius: 20px;
+  }
+  
+  .r7 {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    left: 791px;
+    top: 131px;
+  
+    background: rgba(32, 52, 81, 0.53);
+    border-radius: 20px;
+  }
+  
+  .r8 {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    left: 791px;
+    top: 330px;
+  
+    background: #938585;
+    border-radius: 20px;
+  }
+  
+  .buttons .endRoom {
+    position: absolute;
+    width: 291px;
+    height: 50px;
+    left: 60px;
+    top: 535px;
+  
+    background: #203451;
+    border-radius: 50px;
+  }
+  
+  /* Finalizar sala */
+  .endRoom {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 26px;
+    text-align: center;
+  
+    color: #ffffff;
+  }
+  
+  /* < */
+  
+  .buttons .prev {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 390px;
+    top: 540px;
+  
+    background: rgba(32, 52, 81, 0.53);
+    border-radius: 5px;
+  }
+  
+  .prev {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+  
+    color: #ffffff;
+  }
+  
+  /* 1 */
+  
+  .buttons .one {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 440px;
+    top: 540px;
+  
+    background: rgba(32, 52, 81, 0.53);
+    border-radius: 5px;
+  }
+  
+  .one {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+  
+    color: #ffffff;
+  }
+  
+  /* 2 */
+  
+  .buttons .two {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 490px;
+    top: 540px;
+  
+    background: rgba(32, 52, 81, 0.53);
+    border-radius: 5px;
+  }
+  
+  .two {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+  
+    color: #ffffff;
+  }
+  
+  /* 3 */
+  
+  .buttons .three {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 540px;
+    top: 540px;
+  
+    background: rgba(32, 52, 81, 0.53);
+    border-radius: 5px;
+  }
+  
+  .three {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+  }
+  
+  /* > */
+  
+  .buttons .next {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 590px;
+    top: 540px;
+  
+    background: rgba(32, 52, 81, 0.53);
+    border-radius: 5px;
+  }
+  
+  .next {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+  
+    color: #ffffff;
+  }
+  
+  /* Logo 1 */
+  
+  .img1 {
+    position: absolute;
+    width: 206px;
+    height: 85px;
+    left: 24px;
+    top: 725px;
+  
+    border-radius: 10px;
+  }
+  
+  /* Logo 2 */
+  
+  .img2 {
+    position: absolute;
+    width: 118px;
+    height: 125px;
+    left: 240px;
+    top: 700px;
+  
+    border-radius: 10px;
+  }
+  
+  

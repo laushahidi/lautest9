@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+/* Style the tab */
+.tab {
+  width: 1030px;
+  height: 45px;
+  
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.grafica1 {
+  width: 210px;
+  height: 180px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  width: 1006px;
+  height: 440px;
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* Style the close button */
+.topright {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.topright:hover {color: red;}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#ucalogo {
+  height: 125px;
+  width: 125px;
+}
+
+#orgalogo {
+  height: 125px;
+  width: 225px;
+}
+
+#admin {
+  height: 115px;
+  width: 115px;
+}
+
+#carta1 {
+  position: absolute;
+  left: 318px;
+  height: 140px;
+  width: 218px;
+}
+
+#carta2 {
+  position: absolute;
+  left: 552px;
+  height: 140px;
+  width: 218px;
+}
+
+#carta3 {
+  position: absolute;
+  left: 790px;
+  height: 140px;
+  width: 218px;
+}
+
+#carta4 {
+  position: absolute;
+  left: 1026px;
+  height: 140px;
+  width: 218px;
+}
+
+#fondo {
+  position: absolute;
+  top: 475px;
+  left: 368px;
+  height: 140px;
+  width: 218px;
+}
+
+#logoPage {
+  position: absolute;
+  left: 368px;
+  top: 625px;
+  height: 140px;
+  width: 218px;
+}
+
+#subirFondo {
+  position: absolute;
+  left: 600px;
+  top: 540px;
+}
+
+#subirLogo {
+  position: absolute;
+  left: 600px;
+  top: 685px;
+}
+
+#setup {
+  position: absolute;
+  left: 850px;
+  top: 475px;
+  height: 300px;
+  width: 350px;
+}

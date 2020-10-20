@@ -1,0 +1,174 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* background */
+body {
+  background-image: url(/img/fondo.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+/* Logo 1 */
+.img1 {
+  position: absolute;
+  width: 206px;
+  height: 85px;
+  left: 24px;
+  top: 725px;
+  border-radius: 10px; }
+
+/* Logo 2 */
+.img2 {
+  position: absolute;
+  width: 118px;
+  height: 125px;
+  left: 240px;
+  top: 700px;
+  border-radius: 10px; }
+
+/* Division */
+.log {
+  position: absolute;
+  width: 566px;
+  height: 658px;
+  left: 570px;
+  top: 120px;
+  background: rgba(196, 196, 196, 0.61);
+  border-radius: 50px;
+  /* Logo superior */
+  /* Usuario */
+  /* Contraseña */
+  /* Ingresar */
+  /* Olvidé Mi Contraseña */ }
+  .log .av {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    left: 160px;
+    top: -100px;
+    background: url(image.png);
+    border-radius: 10px; }
+  .log .user label {
+    position: absolute;
+    width: 90px;
+    height: 32px;
+    left: 60px;
+    top: 162px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 32px;
+    color: #ffffff; }
+  .log .user input {
+    position: absolute;
+    width: 430px;
+    height: 56px;
+    left: 60px;
+    top: 200px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    background: #c4c4c4;
+    border-radius: 5px; }
+  .log .password label {
+    position: absolute;
+    width: 131px;
+    height: 32px;
+    left: 60px;
+    top: 300px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 32px;
+    color: #ffffff; }
+  .log .password input {
+    position: absolute;
+    width: 430px;
+    height: 56px;
+    left: 60px;
+    top: 338px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    background: #c4c4c4;
+    border-radius: 5px; }
+  .log .login {
+    background: #203451;
+    border-radius: 50px;
+    color: #ffffff;
+    position: absolute;
+    width: 219px;
+    height: 60px;
+    right: 30px;
+    top: 520px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px; }
+  .log .forgotP {
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 30px;
+    top: 520px;
+    background: #203451;
+    border-radius: 50px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff; }

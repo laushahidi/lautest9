@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creación de nueva sala</title>
+</head>
+<body>
+    <h2>Tutor 1 <img src="img/avatar.png" alt="Logo avatar"></h2> 
+
+    <form action="#" method="GET">
+
+        <fieldset style="width:1200px;height:400px;">
+        
+            <h1>Nueva sala</h1>
+
+            <div class="datos-sala">
+
+                <fieldset>
+                    <legend>
+                        Datos de la sala
+                    </legend>
+
+                    <label for="tittle">Título de la sala</label>
+                    <input type="text" name="tittle" id="tittle" placeholder="Ingresa el título de la sala">
+
+                    <label for="duration">Tiempo de caducidad de la sala</label>
+                    <input type="time" name="duration" id="duration" placeholder="Ingresa el tiempo de caducidad"> 
+
+                    <label for="duration-game">Tiempo disponible para el juego</label>
+                    <input type="time" name="duration-game" id="duration-game" placeholder="Ingresa el tiempo disponible"> <br><br>
+
+                    <label for="date-time">Fecha y hora</label>
+                    <input type="datetime" name="date-time" id="date-time" placeholder="Ingresa la fecha y hora"> 
+
+                    <label for="students">Cantidad de alumnos en la sesión</label>
+                    <input type="number" name="students" id="students" placeholder="0">
+
+                </fieldset>
+
+            </div>
+
+            <br>
+
+            <div class="valores-puntaje">
+
+                <fieldset>
+                    <legend>
+                        Puntaje por recursos no utilizados
+                    </legend>
+
+                    <label for="triangle"><img src="img/tri1.png" alt="triangle" width="50" height="50"></label>
+                    <input type="number" name="triangle" id="triangle" placeholder="0">
+    
+                    <label for="square"><img src="img/caja2.png" alt="square" width="50" height="50"></label>
+                    <input type="number" name="square" id="square" placeholder="0">
+    
+                    <label for="bar"><img src="img/barra2.png" alt="bar" width="60" height="10"></label>
+                    <input type="number" name="bar" id="bar" placeholder="0"><br><br>
+    
+                    <label for="saved-minute">Minuto ahorrado</label>
+                    <input type="number" name="saved-minute" id="saved-minute" placeholder="0">
+
+                    <label for="flag">Puntaje por bandera en el objetivo</label>
+                    <input type="number" name="flag" id="flag" placeholder="0">
+
+                    <label for="fault">Puntaje restado por penalizaciones</label>
+                    <input type="number" name="flag" id="flag" placeholder="0">
+
+                </fieldset>
+                
+            </div>
+
+            <br>
+            
+            <input type="submit" value="Crear sala">
+
+        </fieldset>
+     
+    </form>
+
+    <footer>
+        <img src="img/logo_fundacion.jpeg" alt="Logo PMIef"> 
+        <img src="img/logo_uca.jpeg" alt="Logo UCA"> 
+    </footer>
+
+</body>
+</html>

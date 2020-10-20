@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de mesas por sala</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!--Font awesome-->
+    <script src="https://kit.fontawesome.com/334db85d9f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="barra">
+        <button class="button"><i class="fas fa-bars"></i></button>
+        <h1 class="tutor"> Tutor </h1>
+        <img class="avatar" src="img/avatar.png" alt="Avatar">
+    </header>
+
+    <form action="#" method="GET"></form>
+
+
+    <div class="rooms-main">
+
+        <h1 class="mesas">Mesas - Sala "Hola Mundo"</h1>
+        <h2 class="bar"></h2>
+
+        <input class="startR" type="button" value="Dar inicio a la sala">
+
+        <div class="rooms">
+            <input class="r1" type="button" value="Mesa #1">
+            <input class="gestion1" type="button" value="Gestión de mesa">
+
+            <input class="r3" type="button" value="Mesa #2">
+            <input class="gestion3" type="button" value="Gestión de mesa">
+
+            <input class="r5" type="button">
+            <input class="r7" type="button">
+            <input class="r2" type="button">
+            <input class="r4" type="button">
+            <input class="r6" type="button">
+            <input class="r8" type="button">
+
+        </div>
+
+        <div class="buttons">
+
+            <input class="endRoom" type="submit" value="Finalizar sala">
+
+            <input class="prev" type="submit" value="<">
+            <input class="one" type="submit" value="1">
+            <input class="two" type="submit" value="2">
+            <input class="three" type="submit" value="3">
+            <input class="next" type="submit" value=">">
+
+        </div>
+
+    </div>
+
+    <footer>
+        <img class="img1" src="img/logo_fundacion.jpeg" alt="Logo PMIef">
+        <img class="img2" src="img/logo_uca.jpeg" alt="Logo UCA">
+    </footer>
+
+    <!--Pop1-->
+    <div class="pop-up-before-game">
+
+        <input class="close" type="submit" value="x">
+        <p class="mesa2">Mesa #2</p>
+
+        <div class="tutors">
+
+            <div class="t1">
+                <img src="img/av1.png" alt="avatar">
+                <p class="p">Tutor 1</p>
+                <input class="i" type="button" value="Añadido">
+            </div>
+            <div class="t2">
+                <img src="img/av2.png" alt="avatar">
+                <p class="p">Tutor 2</p>
+                <input class="ii" type="button" value="Agregar">
+            </div>
+            <div class="t3">
+                <img src="img/av3.png" alt="avatar">
+                <p class="p">Tutor 3</p>
+                <input class="iii" type="button" value="Agregar">
+            </div>
+            <div class="t4">
+                <img src="img/av4.png" alt="avatar">
+                <p class="p">Tutor 4</p>
+                <input class="iiii" type="button" value="Añadido">
+            </div>
+
+        </div>
+
+        <div class="players">
+
+            <div class="e1">
+                <img class="imgA" src="img/av1.png" alt="avatar">
+                <p class="p2">Estudiante 1</p>
+            </div>
+            <div class="e2">
+                <img class="imgB" src="img/av3.png" alt="avatar">
+                <p class="p3">Estudiante 2</p>
+            </div>
+            <div class="e3">
+                <img class="imgC" src="img/av7.png" alt="avatar">
+                <p class="p4">Estudiante 3</p>
+            </div>
+            <div class="e4">
+                <img class="imgD" src="img/av5.png" alt="avatar">
+                <p class="p5">Estudiante 4</p>
+            </div>
+
+        </div>
+
+        <input class="startG" type="button" value="Iniciar partida">
+        <input class="copy" type="button" value="Copiar enlace de la mesa en portapapeles">
+        <button class="co"><i class="fas fa-copy"></i></button>
+
+    </div>
+
+    <!--Pop2
+    <div class="pop-up-after-starting-game">
+
+        <fieldset style="width:400px;height:900px;">
+
+            <input type="submit" value="x">
+            <h2>Mesa #2</h2>
+            <h3>Tiempo transcurrido: 00:00:00</h3>
+            <h3>Puntuación actual: 00</h3>
+
+            <fieldset style="width:200px;height:250px;">
+
+                <legend>Live game</legend>
+                <img src="img/live-game.png" alt="live game">
+
+            </fieldset>
+
+            <fieldset style="width:300px;height:180px;">
+                <legend>Piezas utilizadas</legend>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <td><img src="img/av1.png" alt="avatar"></td>
+                            <td>Estudiante 1</td>
+                            <td><img src="img/av3.png" alt="avatar"></td>
+                            <td>Estudiante 2</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>3</td>
+                            <td>2</td>
+                        <tr>
+                            <td><img src="img/av7.png" alt="avatar"></td>
+                            <td>Estudiante 3</td>
+                            <td><img src="img/av5.png" alt="avatar"></td>
+                            <td>Estudiante 4</td>
+                        </tr>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>3</td>
+                            <td>2</td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+            </fieldset>
+
+            <table border="1" cellpadding="10" cellspacing="0">
+                <thead>
+                    <tr>
+                        <td>
+
+                        </td>
+                        <td>
+                            5
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+                            5
+                        </td>
+                        <td>
+                            4
+                        </td>
+                        <td>
+                            3
+                        </td>
+                        <td>
+                            10
+                        </td>
+                        <td>
+                            2
+                        </td>
+                        <td>
+
+                        </td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>
+
+                        </td>
+                        <td colspan="2">
+                            Tiempo utilizado
+                        </td>
+                        <td colspan="3">
+                            Recursos no utilizados
+                        </td>
+                        <td>
+                            Bandera
+                        </td>
+                        <td>
+                            Penalizaciones
+                        </td>
+                        <td>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Mesa
+                        </td>
+                        <td>
+                            Minutos
+                        </td>
+                        <td>
+                            Segundos
+                        </td>
+                        <td>
+                            Rectángulos
+                        </td>
+                        <td>
+                            Cuadrados
+                        </td>
+                        <td>
+                            Triangulos
+                        </td>
+                        <td>
+                            En el objetivo?
+                        </td>
+                        <td>
+                            Imperfecciones
+                        </td>
+                        <td>
+                            Puntos
+                        </td>
+                    </tr>
+
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td>
+                            4
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            0
+                        </td>
+                    </tr>
+                </tfoot>
+
+            </table>
+
+            <input type="image" src="img/ver-partida-button.png" alt="ver partida">
+
+        </fieldset>
+
+    </div>
+
+    <!--Pop3
+    <div class="pop up finalizar sala">
+
+        <fieldset style="width:700px;height:200px;">
+
+            <h2>Mesas activas:</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <td>Mesa #1</td>
+                        <td>Mesa #2</td>
+                    </tr>
+                </thead>
+            </table>
+
+            <p>¿Desea finalizar la sala?</p>
+
+            <input type="image" src="img/cancelar-button.png" alt="cancel">
+            <input type="image" src="img/finalizar-sala2-button.png" alt="finalizar">
+
+        </fieldset>
+
+    </div>-->
+
+    </form>
+
+</body>
+
+</html>

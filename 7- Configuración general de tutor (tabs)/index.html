@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/master.css">
+  <title>Pantalla Configuracion de Tutor</title>
+</head>
+<body>
+    <header>
+      <h2>Tutor</h2>
+      <img id="admin" src="imagenes/Av2.png" alt="Avatar del usuario Admin"> 
+    <aside>
+        <p> • Configuracion </p>
+        <p> • Ir a salas </p>
+	<p> • Ver Historico</p>
+        <p> • Cerrar sesion </p>
+    </aside>
+
+  <center>
+    <div class="tab">
+      <button class="tablinks" onclick="openOption(event, 'Crear_Tutor')" id="defaultOpen">Crear Tutor</button>
+      <button class="tablinks" onclick="openOption(event, 'Rec_Contraseña')">Rec. Contraseña</button>
+      <button class="tablinks" onclick="openOption(event, 'Ver_Estadisticas')">Ver Estadisticas de Uso</button>
+      <button class="tablinks" onclick="openOption(event, 'Iden_Grafica1')">Identidad Gráfica 1/2</button>
+      <button class="tablinks" onclick="openOption(event, 'Iden_Grafica2')">Identidad Gráfica 2/2</button>
+    </div>
+
+    <div id="Crear_Tutor" class="tabcontent">
+      <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+      <h3>CREACION DE TUTOR</h3>
+      <form action="#">
+        <label for="userName">Nombre de usuario:</label><br>
+        <input type="text" id="userName" name="userName" value="Fulano"><br><br>
+        <label for="mail">Correo electrónico:</label><br>
+        <input type="text" id="mail" name="userName" value="FulanoRTutor@somemail.com"><br><br>
+        <label for="pass">Contraseña:</label><br>
+        <input type="text" id="pass" name="pass" value="m1C0ntr4"><br><br>
+        <label for="passConfirm">Confimar Contraseña:</label><br>
+        <input type="text" id="passConfirm" name="passConfirm" value="m1C0ntr4"><br><br>
+        <input type="submit" value="Crear Usuario">
+      </form>
+    </div>
+
+    <div id="Rec_Contraseña" class="tabcontent">
+      <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+      <h3>Restablecer  Contraseña de Tutor</h3>
+        <form action="#">
+          <label for="emailChange">Correo electrónico:</label><br>
+          <input type="text" id="emailChange" name="emailChange" value="MenganoTutor@somemail.com"><br><br>
+          <label for="newPass">Nueva Contraseña:</label><br>
+          <input type="text" id="newPass" name="newPass" value="m1n3wpass"><br><br>
+          <label for="conNewPass">Confirmar Contraseña:</label><br>
+          <input type="text" id="conNewPass" name="conNewPass" value="m1n3wpass"><br><br>
+          <input type="submit" value="Guardar">
+        </form>
+      <h3>Eliminar Tutor</h3>
+      <form action="#">
+          <label for="emailDelete">Correo electrónico:</label><br>
+          <input type="text" id="emailDelete" name="emailDelete" value="MenganoTutor@somemail.com"><br><br>
+          <input type="submit" value="Eliminar">
+        </form>
+    </div>
+
+    <div id="Ver_Estadisticas" class="tabcontent">
+      <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+      <h3>Ver Estadisticas de Uso del sitio</h3>
+      <img class="grafica1" src="imagenes/Participantes-x-Semana.png" alt="Gráfica Participantes-x-Semana"><br>
+      <img class="grafica1" src="imagenes/Salas-x-Semana.png" alt="Gráfica Participantes-x-Semana">
+      
+    </div>
+
+    <div id="Iden_Grafica1" class="tabcontent">
+        <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+        <h3>Configurar aspectos graficos del sistema</h3>
+        <p>titulos</p>
+        <p>pestañas</p>
+        <p>barra principal</p>
+        <p>recuadro principal</p>
+        <img id="carta1" src="imagenes/cartaColores.png" alt="carta de colores 1">
+        <img id="carta2" src="imagenes/cartaColores.png" alt="carta de colores 2">
+        <img id="carta3" src="imagenes/cartaColores.png" alt="carta de colores 3">
+        <img id="carta4" src="imagenes/cartaColores.png" alt="carta de colores 4"><br><br><br><br><br><br><br><br><br><br><br>
+        <button>Guardar</button>
+    </div>
+
+    <div id="Iden_Grafica2" class="tabcontent">
+        <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+        <h3>Configurar aspectos graficos del sistema - Fondo / Logo / Set de Piezas</h3>
+        <img id="fondo" src="imagenes/fondo.png" alt="fondo actual">
+        <button id="subirFondo">Subir Fondo</button>
+        <img id="logoPage" src="imagenes/logoPage.png" alt="logo actual actual">
+        <button id="subirLogo">Subir Logo</button>
+        <img id="setup" src="imagenes/SetUp.png" alt="SetUp de objetos jugables">
+        <button >Guardar Cambios</button>
+    </div>
+
+  </center>
+  <footer>
+      <img id="orgalogo" src="imagenes/pmief.png" alt="Logo de la organizacion">
+      <img id="ucalogo" src="imagenes/ucalogo.jpg" alt="Logo de la uca">
+  </footer>
+  <script>
+  function openOption(evt, optionName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+    tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+    document.getElementById(optionName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+  </script>
+   
+</body>
+</html> 
